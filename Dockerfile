@@ -1,5 +1,5 @@
-FROM ubuntu:18.04
-MAINTAINER "sudhams reddy duba"<dubareddy.383@gmail.com>
+FROM ubuntu:lts
+MAINTAINER "rithishsamm"<rithish@hexrfactory.com>
 RUN apt update && \
     apt install -y nginx
 COPY index.html /usr/share/nginx/html/
